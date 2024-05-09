@@ -3,7 +3,7 @@ import axios from 'axios'
 import Cheerio  from 'cheerio'
 
 const app = express();
-const port =3000 ;
+const port =3000 || pross.env.PORT ;
 const All_data = [];
 async function scraping(){
     const response = await axios.get('https://www.hespress.com/');
