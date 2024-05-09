@@ -3,8 +3,8 @@
     "builds": [
       {
         "src": "./index.js",
-        "use": "@vercel/node/node"
+        "use": "@vercel/node"
       }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/api" }] 
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
   }
